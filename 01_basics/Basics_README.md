@@ -1,44 +1,48 @@
-1. What is Python?
+### **1. What is Python?**
 
-Python is a high-level programming language used in data analysis, web development, automation, artificial intelligence, and more.
+- Python is a high-level programming language used in data analysis, web development, automation, artificial intelligence, and more.
 
-Key Points to Cover:
+**Key Points to Cover:**
+- Python is easy to read and write
+- It is widely used in industry
+- It allows you to give instructions to a computer. 
 
-Python is easy to read and write
-It is widely used in industry
-It allows you to give instructions to a computer
-2. Setting Up and First Program
-
-Introduce learners to writing and running their first Python program.
-
+### **2. Setting Up and First Program.**
+- We can run Python  in Jupyter notebook and Jupyter lab on Anaconda, IDE like pycharm, or spider or use  text edit and terminal(for a system with python interplater installed)
+  
 Example:
 
+```python
 print("Hello, world!")
+```
 
-Concepts:
+**Concepts:**
 
-print() displays output
-Strings are written inside quotes
-3. Variables and Data Types
+- print() displays output
+- Strings are written inside quotes
 
-Explain how data is stored and used.
+
+### **3. Variables and Data Types.**
+
 
 Examples:
-
+```python
 name = "Harun"
 age = 25
 height = 1.75
 is_student = True
+```
 
-Concepts:
+**Concepts:**
+- Variables store data
 
-Variables store data
-Common data types:
-String (text)
-Integer (whole numbers)
-Float (decimals)
-Boolean (True/False)
-4. Printing and Combining Data
+**- Common data types:**
+        - String (text)
+        - Integer (whole numbers)
+        - Float (decimals)
+        - Boolean (True/False)
+        
+### **4. Printing and Combining Data.**
 
 Show how to display variables and combine text.
 
@@ -81,47 +85,23 @@ if age >= 18:
 else:
     print("You are too young")
 
-Concepts:
+**Concepts:**
+- if checks a condition
+- else runs if condition is false
+- Indentation is important
 
-if checks a condition
-else runs if condition is false
-Indentation is important
-9. Mini Practice Exercises
+### **9. Mini Practice Exercises
 
-Encourage hands-on practice.
 
-Exercise 1:
-Ask for name and age, then print a message.
+**Exercise 1:**
+- Ask for name and age, then print a message.
 
-Exercise 2:
-Check if a number is even or odd.
+**Exercise 2:**
+- Check if a number is even or odd.
 
-10. Common Beginner Mistakes
+### **10. Common Beginner Mistakes.**
+- Missing quotation marks
+- Incorrect indentation
+- Mixing data types incorrectly
+- Forgetting type conversion
 
-Highlight common errors:
-
-Missing quotation marks
-Incorrect indentation
-Mixing data types incorrectly
-Forgetting type conversion
-11. What Not to Cover in This Session
-
-Avoid overwhelming beginners with:
-
-Loops
-Functions
-Classes
-External libraries
-12. Learning Outcome
-
-By the end of this session, learners should be able to:
-
-Write a basic Python program
-Use variables and data types
-Perform simple calculations
-Take user input
-Use basic conditional logic
-13. Suggested Assignment
-Create a program that adds two numbers
-Create a greeting program
-Check if a number is positive or negative
