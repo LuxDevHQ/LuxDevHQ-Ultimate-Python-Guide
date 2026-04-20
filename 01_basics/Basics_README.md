@@ -59,38 +59,41 @@ print(a + b)
 print(a - b)
 print(a * b)
 print(a / b)
-6. User Input
+
+### **6. User Input.**
 
 Allow programs to interact with users.
-
+```
 name = input("Enter your name: ")
 print("Hello " + name)
+```
 
-Important Note:
+**Important Note:**
 
-Input is always treated as text
-7. Type Conversion
+Input is always treated as text.
 
-Explain how to convert data types.
+### **7. Type Conversion.**
 
+```python
 age = int(input("Enter your age: "))
-8. Conditional Statements (Decision Making)
+```
+### **8. Conditional Statements (Decision Making).**
 
-Teach basic logic using conditions.
-
-age = int(input("Enter your age: "))
+```python
+age = int(input("Enter your age: ")
 
 if age >= 18:
     print("You can vote")
 else:
     print("You are too young")
+```
 
 **Concepts:**
 - if checks a condition
 - else runs if condition is false
 - Indentation is important
 
-### **9. Mini Practice Exercises
+### **9. Mini Practice Exercises.**
 
 
 **Exercise 1:**
