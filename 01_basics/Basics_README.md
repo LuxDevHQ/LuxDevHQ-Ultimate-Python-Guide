@@ -178,7 +178,9 @@ else:
 ---
 **You can learn more about Python from:**
 
-1). W3Schools Python Course: https://www.w3schools.com/python/
+1). W3Schools Python Course: https://www.w3schools.com/python
+
 2). Python Official Documentation: https://docs.python.org/release/3.12.0/tutorial/index.html
-3). Python Community Tutorial: https://www.pythontutorial.net/
+
+3). Python Community Tutorial: https://www.pythontutorial.net
 
