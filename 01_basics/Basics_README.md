@@ -2,13 +2,30 @@
 
 - Python is a high-level programming language used in data analysis, web development, automation, artificial intelligence, and more.
 
-**Key Points to Cover:**
-- Python is easy to read and write
-- It is widely used in industry
-- It allows you to give instructions to a computer. 
+- Python is a programming language used to communicate with computers. Just like humans use English or Swahili to communicate, we use Python to give instructions to a computer.
+
+- It is designed to be simple and easy to read, which makes it perfect for beginners. Python is used in many real-world applications such as analyzing data, building websites, automating repetitive tasks, and developing artificial intelligence systems.
+
+- When you write Python code, you are simply telling the computer what to do step by step.
+
+--- 
 
 ### **2. Setting Up and First Program.**
 - We can run Python  in Jupyter notebook and Jupyter lab on Anaconda, IDE like pycharm, or spider or use  text edit and terminal(for a system with python interplater installed)
+
+- The first thing beginners need to understand is that programming is about writing instructions and seeing results.
+
+- The print() function is one of the most basic and important tools in Python. It tells the computer to display something on the screen.
+
+When we write:
+
+```python
+print("Hello, world!")
+```
+
+> we are telling Python to show the text “Hello, world!” on the screen.
+
+- Text in Python must be written inside quotation marks. Without quotes, Python will think it is something else and produce an error.
   
 Example:
 
@@ -23,7 +40,7 @@ print("Hello, world!")
 
 
 ### **3. Variables and Data Types.**
-
+- A variable is like a container used to store information. Instead of repeating values again and again, we store them in variables and reuse them.
 
 Examples:
 ```python
@@ -34,6 +51,7 @@ is_student = True
 ```
 
 **Concepts:**
+
 - Variables store data
 
 **- Common data types:**
@@ -44,21 +62,25 @@ is_student = True
         
 ### **4. Printing and Combining Data.**
 
-Show how to display variables and combine text.
-
+```python
 print(name)
 print("Hello " + name)
-5. Basic Operations
+```
 
-Introduce arithmetic operations.
 
+### **5. Basic Operations.**
+
+```python
 a = 10
 b = 5
+```
 
+```python
 print(a + b)
 print(a - b)
 print(a * b)
 print(a / b)
+```
 
 ### **6. User Input.**
 
@@ -103,8 +125,8 @@ else:
 - Check if a number is even or odd.
 
 ### **10. Common Beginner Mistakes.**
-- Missing quotation marks
-- Incorrect indentation
-- Mixing data types incorrectly
-- Forgetting type conversion
+- Missing quotation marks.
+- Incorrect indentation.
+- Mixing data types incorrectly.
+- Forgetting type conversion.
 
