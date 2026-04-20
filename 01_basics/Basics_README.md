@@ -62,13 +62,32 @@ is_student = True
         
 ### **4. Printing and Combining Data.**
 
+-  Printing allows us to display both text and variables.
+
+**Example 1:**
+
+```python
+name = "Harun"
+print(name)
+```
+This prints the value stored in the variable name.
+
 ```python
 print(name)
 print("Hello " + name)
 ```
-
+This joins the text "Hello " with the value of name. This concept is important because it allows us to create meaningful messages and outputs.
 
 ### **5. Basic Operations.**
+
+Python can perform mathematical calculations just like a calculator. Common operations include:
+
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+
+**For example:**
 
 ```python
 a = 10
@@ -81,10 +100,13 @@ print(a - b)
 print(a * b)
 print(a / b)
 ```
+Python calculates the result and displays it. This is useful in real-world scenarios like calculating totals, averages, or financial values.
 
 ### **6. User Input.**
+Programs become more powerful when they can interact with users. The ```input()``` function allows users to enter data.
 
 Allow programs to interact with users.
+
 ```
 name = input("Enter your name: ")
 print("Hello " + name)
