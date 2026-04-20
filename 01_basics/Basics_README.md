@@ -113,15 +113,28 @@ print("Hello " + name)
 ```
 
 **Important Note:**
-
-Input is always treated as text.
+>> Input is always treated as text.
 
 ### **7. Type Conversion.**
 
+Since input is always treated as text, we sometimes need to convert it into another type.
+
 ```python
 age = int(input("Enter your age: "))
+
 ```
+Here, int() converts the text input into a number.
+
+Without conversion, Python cannot perform mathematical operations on input values. Type conversion ensures that data is in the correct format for the task you want to perform.
+
 ### **8. Conditional Statements (Decision Making).**
+
+- Conditional statements allow programs to make decisions.
+
+**They follow a simple idea:**
+
+>> “If something is true, do this. Otherwise, do something else.”
+
 
 ```python
 age = int(input("Enter your age: ")
@@ -133,12 +146,18 @@ else:
 ```
 
 **Concepts:**
-- if checks a condition
-- else runs if condition is false
-- Indentation is important
+- if checks a condition. 
+- else runs if condition is false.
+- Indentation is important.
+
+**The program checks the condition (age >= 18):**
+    - If it is true, it runs the first block
+    - If it is false, it runs the second block
+
+
+- Indentation (spacing) is very important in Python because it defines which code belongs inside the condition. This concept is powerful because it allows programs to behave differently based on input or conditions.
 
 ### **9. Mini Practice Exercises.**
-
 
 **Exercise 1:**
 - Ask for name and age, then print a message.
@@ -147,8 +166,12 @@ else:
 - Check if a number is even or odd.
 
 ### **10. Common Beginner Mistakes.**
-- Missing quotation marks.
-- Incorrect indentation.
-- Mixing data types incorrectly.
-- Forgetting type conversion.
+
+- Beginners often make predictable mistakes, and addressing them early helps reduce frustration.
+
+**Common issues include:**
+- Forgetting quotation marks for text
+- Incorrect indentation
+- Mixing data types (e.g., adding text and numbers without conversion)
+- Forgetting to convert input values
 
