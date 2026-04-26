@@ -29,13 +29,13 @@ Imagine a teacher taking attendance:
 
 A loop follows this pattern:
 
-1). Start.
+    1). Start.
 
-2). Check condition or pick next item.
+    2). Check condition or pick next item.
 
-3). Execute code.
+    3). Execute code.
 
-4). Repeat until condition is false or items are finished.
+    4). Repeat until condition is false or items are finished.
 
 ### **Types of Loops**
 - `for` loop → used when you know the number of iterations  
