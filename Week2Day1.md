@@ -130,8 +130,10 @@ for i in range(3):
 ---
 
 ## **2. Conditional Statements**
+Conditional statements are how programs become smart. Without them, your code just runs step by step. With them, your code can think, decide, and react.
 
-Used to make decisions in your code.
+>> A conditional statement asks a question and decides what to do based on the answer.
+
 
 ### **2.1 Basic If Statement**
 ```python
