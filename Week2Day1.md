@@ -28,13 +28,9 @@ Imagine a teacher taking attendance:
 **How Loops Work.**
 
 A loop follows this pattern:
-
     1). Start.
-
     2). Check condition or pick next item.
-
     3). Execute code.
-
     4). Repeat until condition is false or items are finished.
 
 ### **Types of Loops**
