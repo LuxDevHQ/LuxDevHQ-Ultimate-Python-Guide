@@ -1,4 +1,4 @@
-### **Intermediate Python: Loops, Conditional Statements & User-Defined Functions**
+### **Intermediate Python: Loops, Conditional Statements and User-Defined Functions**
 
 ---
 
